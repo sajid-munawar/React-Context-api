@@ -1,8 +1,8 @@
 import React from "react";
 
-function Child (){
+function Child (props){
     return <div>
-        Helloooo
+        Helloooo {props.name}
     </div>
 }
 
