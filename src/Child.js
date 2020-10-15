@@ -1,9 +1,11 @@
 import React from "react";
 
-function Child (props){
+const Child = (props) => {
     return <div>
-        Helloooo {props.name}
+        <h1> Hii </h1>
+        <h1>This is {props.name}</h1>
     </div>
+
 }
 
 export default Child;

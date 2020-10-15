@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      <Parent  />
+      <Parent name="Sajid" />
     </div>
   );
 }

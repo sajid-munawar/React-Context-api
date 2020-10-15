@@ -1,8 +1,8 @@
 import React from "react";
 import Child from "./Child.js"
 
-function Parent (){
-    return <Child name="sajid"/>
+const Parent = (props) => {
+    return <Child  name={props.name} />
 }
 
 export default Parent;
