@@ -1,12 +1,16 @@
 import React from 'react';
 import Parent from "./Parent.js"
 import './App.css';
+import CounterContext from "./CounterContext"
 
 function App() {
   return (
-    <div >
-      <Parent name="Sajid" />
-    </div>
+    <CounterContext.Provider value={10}>
+      <div >
+     
+        <Parent />
+      </div>
+    </CounterContext.Provider>
   );
 }
 
