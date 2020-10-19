@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import Parent from "./Parent.js"
 import './App.css';
 import CounterContext from "./CounterContext"
-import Another from "./another"
+import Another from "./Another"
 
 function App() {
   let countState=useState(10) // c[count , set]
   return (
     <CounterContext.Provider value={countState}>
       <div >
-        {/* <Another/> */}
+        <Another/>
 
-        <Parent />
+        {/* <Parent /> */}
       </div>
     </CounterContext.Provider>
   );
