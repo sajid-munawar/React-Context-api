@@ -7,7 +7,7 @@ const Child = () => {
    
 
     return <div>
-        <h1>This is counter Value {counterValuee}</h1>
+        <h1>This is counter Value from context {counterValuee}</h1>
         <button onClick={() => { counterValuee[1](++counterValuee[0]) }} >Increment</button>
         <button onClick={() => { counterValuee[1](--counterValuee[0]) }} >Decrement</button>
 
