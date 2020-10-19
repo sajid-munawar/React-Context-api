@@ -1,22 +1,16 @@
-import React from 'react'; //, { useState } 
-// import Parent from "./Parent.js"
+import React, { useState } from 'react';
+import Parent from "./Parent.js"
 import './App.css';
-// import CounterContext from "./CounterContext"
-// import Another from "./Another"
+import CounterContext from "./CounterContext"
 
 function App() {
-  // let countState=useState(10) // c[count , set]
+  let countState = useState(10) // c[count , set]
   return (
-    // <CounterContext.Provider value={countState}>
+    <CounterContext.Provider value={countState}>
       <div >
-        <h1>
-        This is simple react App
-        </h1>
-        {/* <Another/> */}
-
-        {/* <Parent /> */}
+        <Parent />
       </div>
-    // </CounterContext.Provider>
+    </CounterContext.Provider>
   );
 }
 
