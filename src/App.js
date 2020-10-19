@@ -9,7 +9,9 @@ function App() {
   return (
     // <CounterContext.Provider value={countState}>
       <div >
+        <h1>
         This is simple react App
+        </h1>
         {/* <Another/> */}
 
         {/* <Parent /> */}
